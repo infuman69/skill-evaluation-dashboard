@@ -1,0 +1,114 @@
+.modal-header {
+    width:90%;
+    margin: 0 auto;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.8rem 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.modal-header h1 {
+    color: var(--primary-color)
+}
+
+.update-form{
+    display:flex;
+    flex-direction: column;
+    gap:45px;
+    padding: 1.9rem 0rem;
+    border-bottom: 1px solid var(--border-color);
+    width: 90%;
+    margin : 0 auto;
+}
+
+.label-input {
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.label-input .serial-number{
+    border-radius: 50%;
+    background-color: var(--btn-background);
+    height:24px;
+    width:24px;
+    display: block;
+    text-align: center;
+    color:#fff;
+}
+
+.form-input {
+    display: flex;
+    width:90%;
+    margin:0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-label {
+    color: var(--secondary-color)
+}
+
+.input-label span {
+    font-weight: 700;
+}
+
+.form-input-criteria input {
+    border: 1px solid var(--btn-background); 
+    border-radius : 5px;
+    padding : 10px 8px;
+    color: var(--btn-background);
+    outline:none;
+    font-weight: 700;
+}
+
+.form-input-criteria input::placeholder {
+    color: var(--btn-background)
+} 
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    width:90%;
+    margin : 0 auto;
+    padding: 1.8rem 0;
+}
+
+.form-btns {
+    display:flex;
+    gap:15px;
+}
+
+.cancel-btn {
+    background: none;
+    border: 1px solid var(--btn-background);
+    padding: 8px 16px;
+    color:var(--btn-background);
+    font-weight: 700;
+    border-radius: 5px;
+
+}
+
+.cancel-btn:hover {
+    cursor: pointer;
+}
+
+.save-btn {
+    background: none;
+    padding: 10px 16px;
+    border:none;
+    border-radius: 5px;
+    background: var(--btn-background);
+    color:#fff;
+    display: flex;
+    gap:10px;
+}
+
+.save-btn img {
+    display: block;
+}
+
+.save-btn:hover {
+    cursor: pointer;
+}

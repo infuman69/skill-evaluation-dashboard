@@ -1,0 +1,26 @@
+.header {
+  width: 100%;
+  border-bottom: 1px solid var(--border-color);
+
+  /* padding: 20px 15px */
+}
+
+.header-auto {
+  width: 95%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  background: none;
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+  padding: 8px;
+  gap: 10px;
+}

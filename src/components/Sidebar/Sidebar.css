@@ -1,0 +1,33 @@
+.sidebar {
+  width: 14%;
+  border-right: 1px solid var(--border-color);
+  height: 88vh;
+}
+
+.sidebar-menu {
+  display: flex;
+  padding: 4px 0px 161px 0px;
+  flex-direction: column;
+  padding-top: 30px;
+  gap: 20px;
+  width: 80%;
+}
+
+.sidebar-btn {
+  display: flex;
+  border: none;
+  background: #fff;
+  gap: 15px;
+  align-items: center;
+  font-size: 16px;
+  padding-left: 5px;
+  justify-content: center;
+  color: var(--secondary-color);
+}
+
+.selected {
+  border-radius: 0px 100px 100px 0px;
+  background: #f7f8fa;
+  color: var(--selected-color);
+  padding: 10px 0px;
+}

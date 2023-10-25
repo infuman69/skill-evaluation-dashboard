@@ -1,0 +1,20 @@
+.skill-test-container {
+  padding: 25px 34px;
+}
+
+.skill-test-heading {
+  color: var(--secondary-color);
+}
+
+.skill-test-analytics {
+  display: flex;
+  margin-top: 10px;
+}
+
+.skill-test-analytics > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-right: 20px;
+  gap:20px;
+}
