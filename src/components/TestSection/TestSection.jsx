@@ -18,7 +18,9 @@ const TestSection = () => {
             <p>Questions: 08 | Duration: 15 mins | Submitted on 5 June 2021</p>
           </div>
         </div>
-        <button className="update-btn" onClick={handleOpen}>Update</button>
+        <button className="update-btn" onClick={handleOpen}>
+          Update
+        </button>
       </div>
       <Modal open={open} onClose={() => setOpen(false)}>
         <UpdateModal onClose={onClose} />

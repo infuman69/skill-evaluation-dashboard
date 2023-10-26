@@ -1,9 +1,9 @@
 import { createPortal } from "react-dom";
 import "./Modal.css";
 
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
-const Modal = ({ open, children}) => {
+const Modal = ({ open, children }) => {
   if (!open) return null;
 
   return createPortal(
@@ -11,7 +11,7 @@ const Modal = ({ open, children}) => {
       <div className="overlay"></div>
       {children}
     </>,
-    document.getElementById("modal")
+    document.getElementById("modal"),
   );
 };
 
@@ -21,4 +21,3 @@ Modal.propTypes = {
 };
 
 export default Modal;
-
