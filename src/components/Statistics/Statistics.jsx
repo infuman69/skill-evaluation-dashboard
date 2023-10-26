@@ -16,7 +16,11 @@ const Statistics = () => {
           <div className="criteria ">
             <img src={Rank} alt={"Rank"} />
             <div className="criteria-score">
-              <h4>{rank}</h4>
+              <h4>
+                {parseInt(rank).toLocaleString() === "NaN"
+                  ? ""
+                  : parseInt(rank).toLocaleString()}
+              </h4>
               <label>YOUR RANK</label>
             </div>
           </div>
@@ -32,7 +36,7 @@ const Statistics = () => {
           <div className="criteria">
             <img src={correct} alt={"correct"} />
             <div className="criteria-score">
-              <h4>{score}/15</h4>
+              <h4>{parseInt(score) < 10 ? `0${score}` : score}/15</h4>
               <label>CORRECT ANSWERS</label>
             </div>
           </div>
