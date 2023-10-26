@@ -1,9 +1,12 @@
 // import React from 'react'
+import ComparisonGraph from "../../components/ComparisonGraph/ComparisonGraph";
+import Question from "../../components/Question/Question";
 import Statistics from "../../components/Statistics/Statistics";
+import Syllabus from "../../components/Syllabus/Syllabus";
 import TestSection from "../../components/TestSection/TestSection";
 import { SkillProvider } from "../../context/SkillContext";
 import "./SkillTestPage.css";
-SkillProvider;
+
 
 const SkillTestPage = () => {
   return (
@@ -14,9 +17,11 @@ const SkillTestPage = () => {
           <div className="skill-test-analytics-statistics-and-graph">
             <TestSection />
             <Statistics />
+            <ComparisonGraph/>
           </div>
-          <div className="skill-test-analytics-">
-            <p>Hello</p>
+          <div className="syllabus-question">
+            <Syllabus />
+            <Question />            
           </div>
         </div>
       </div>

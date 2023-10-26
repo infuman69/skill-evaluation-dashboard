@@ -1,7 +1,7 @@
 .sidebar {
   width: 14%;
   border-right: 1px solid var(--border-color);
-  height: 88vh;
+  height: 120vh;
 }
 
 .sidebar-menu {
@@ -20,14 +20,22 @@
   gap: 15px;
   align-items: center;
   font-size: 16px;
-  padding-left: 5px;
+  padding: 10px 0px;
   justify-content: center;
   color: var(--secondary-color);
+}
+
+.sidebar-btn:hover {
+  cursor: pointer;
+  border-radius: 0px 100px 100px 0px;
+  background: #f7f8fa;
+  /* color: var(--selected-color); */
+
 }
 
 .selected {
   border-radius: 0px 100px 100px 0px;
   background: #f7f8fa;
   color: var(--selected-color);
-  padding: 10px 0px;
+  
 }

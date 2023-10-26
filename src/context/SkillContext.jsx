@@ -2,6 +2,7 @@ import { useContext, createContext, useReducer } from "react";
 import { reducer } from "./SkillReducer";
 
 import PropTypes from "prop-types";
+import { DonutChart } from "@tremor/react";
 
 const SkillContext = createContext();
 
@@ -10,9 +11,9 @@ export const useSkill = () => {
 };
 
 const initialState = {
-  rank: "",
-  percentile: "",
-  score: "",
+  rank: "12890",
+  percentile: "37",
+  score: "7",
 };
 
 export const SkillProvider = ({ children }) => {

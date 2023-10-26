@@ -10,6 +10,8 @@
 
 .modal-header h1 {
   color: var(--primary-color);
+  font-size: 36px !important;
+  font-weight: 700 !important;
 }
 
 .update-form {
@@ -104,7 +106,7 @@
   padding: 10px 16px;
   border: none;
   border-radius: 5px;
-  background: var(--btn-background);
+  background: var(--btn-background) !important;
   color: #fff;
   display: flex;
   gap: 10px;

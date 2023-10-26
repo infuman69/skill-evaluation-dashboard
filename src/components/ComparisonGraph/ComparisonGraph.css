@@ -1,0 +1,16 @@
+.comparison-graph-container {
+    border: 1px solid var(--border-color);
+    padding: 20px 21px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.comparison-graph-text p {
+    font-size: 14px;
+    color : var(--secondary-color);
+}
+
+.comparison-graph-text p span {
+    font-weight: 700;
+}

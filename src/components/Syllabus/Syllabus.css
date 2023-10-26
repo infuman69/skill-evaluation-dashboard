@@ -1,0 +1,11 @@
+.syllabus-container {
+  border: 1px solid var(--border-color);
+  padding: 20px 21px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.syllabus-container h4 {
+    font-size: 16px;
+    color: var(--primary-color);
+}
